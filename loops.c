@@ -6,7 +6,7 @@ int main(void)
 
     for (i = 0; i < 5; i++)
     {
-        printf("i = %d\n", i);
+        printf("i = %d", i);
     }
     return (0);
 }
