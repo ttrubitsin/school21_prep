@@ -10,8 +10,12 @@ void ft_print_numbers(void)
     int i;
 
     
-    for (i = 0; i < 10; i++)
+    
+    for (i = 3; i < 10; i++)
+    {for (i = 0; i < 3; i++)
     {
+        ft_putchar('0'+i);
+    }
         ft_putchar('0'+i);
     }
     
